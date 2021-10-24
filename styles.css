@@ -1,0 +1,143 @@
+.home{
+    background-image: url('./assets/img/main.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    font-family: Raleway;        
+}
+
+hgroup{
+    text-align: center;
+    color: rgb(117, 107, 107);
+    text-shadow: 1px 1px 0px #ebe7e2;
+}
+
+@font-face {
+    font-family: Raleway;
+    src: url(./fonts/Raleway/Raleway-VariableFont_wght.ttf);
+}
+
+.welcome{
+    text-align: center;
+    font-size: 2vw;
+    text-shadow: 1px 1px 0px #ebe7e2;
+    color: rgb(117, 107, 107);
+    display: inline;
+
+}
+
+.nav{
+    display: flex;
+    vertical-align: bottom;
+}
+
+.contact-header{
+    width: 100%;
+    height: 30vh;
+    background-color: brown;
+}
+
+.contact-image{
+    background-image: url('./assets/img/spa.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    position: relative;       
+}
+
+.contact-nav{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.image-container{
+    height: 100%;
+}
+
+.top{
+    width: 100%;
+    height: 100vh;
+}
+
+.art2{
+    margin-top: 5%;
+}
+
+#welcome{
+    font-size: 4vw;
+    color: rgb(117, 107, 107);
+    text-shadow: 1px 1px 0px #ebe7e2;
+    text-align: center;
+    padding-top: 10%;
+}
+a{
+    text-decoration: none;
+    color: white;  
+    height: 100%;
+    padding: 20px 20px;  
+}
+
+a:hover{
+    color: black;  
+}
+
+.homebutton{
+    padding: 21px 34px;
+    background-color:transparent;    
+    border-radius: 3px;
+    text-transform: uppercase;
+    color: white;
+    width: 25%;
+    text-decoration: none;
+    border: solid rgb(255, 255, 255);
+    margin-left: 2%;
+}
+
+.homebutton:hover {
+	background-color:white;
+    color: black;
+}
+
+.section_button{
+    display: flex;
+    width: 100%;
+    height: 30%;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    overflow: hidden;
+    background: rgba(224, 196, 142, 0.25);;    
+  }
+  
+  li {
+    float: left;    
+  }
+  
+  li a {
+    display: block;
+    color:rgb(233, 230, 223);
+    font-size:20px;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+  }
+  .active{
+  background-color: gray;
+  color: white;
+  }
+  li a:hover {
+    background-color: rgb(194, 160, 97);
+    color: white;
+  }
